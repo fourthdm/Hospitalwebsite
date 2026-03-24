@@ -1,0 +1,86 @@
+.cardvision {
+    background-color: #fcb900;
+    color: #184799;
+    border: none;
+    border-radius: 0%;
+}
+
+.card-header {
+    background-color: none;
+}
+
+.mission-image {
+    width: auto;
+    height: auto;
+    margin-top: -10%;
+}
+
+.vision-image {
+    width: auto;
+    height: auto;
+    margin-top: -10%;
+}
+
+.mission-image:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.vision-image:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.vision {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #184799;
+    text-align: center;
+}
+
+.abouttext {
+    font-size: 1.2em;
+    /* color: #184799; */
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.abouthead {
+    color: #184799;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+
+#appoinment {
+    background: linear-gradient(to right, #fcb900, #184799);
+    color: white;
+    padding: 2%;
+}
+
+.bg-image {
+    background-image: url('/assets/aboutbanner.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.mask {
+    padding: 25% 5% 15% 18%;
+}
+
+.texts {
+    padding-left: 55%;
+    margin-top: -20%;
+}
+
+.headlines {
+    font-size: 4em;
+}
+
+.textslider {
+    font-size: larger;
+}
+
+.aboutimage {
+    border-radius: 5%;
+}

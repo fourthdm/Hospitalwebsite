@@ -1,0 +1,60 @@
+
+   .accordion-header {
+       background-color: #184799;
+       color: white;
+       font-size: larger;
+       font-weight: 750;
+   }
+
+   .accordion-body {
+       text-align: justify;
+       font-size: medium;
+   }
+
+   .fa-angles-right {
+       color: #fcb900;
+       margin-right: 10px;
+   }
+
+   .accordion-button {
+       font-size: medium;
+       font-weight: 500;
+   }
+
+   .testimonialname {
+       color: #184799;
+       font-size: 1.2em;
+       font-weight: 700;
+   }
+
+   .testimonialcard {
+       background-color: transparent;
+       border: none;
+   }
+
+   #Testimonials {
+       background-color: #1847990b;
+   }
+
+   
+   .headline {
+       color: #184799;
+       font-weight: bold;
+   }
+
+   .headlines {
+       color: #fcb900;
+       font-weight: bold;
+   }
+   
+   .cardcontact {
+       background-image: url('/assets/testimonials.png');
+       background-color: #184799a2;
+       background-blend-mode: multiply;
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       color: white;
+       border: 2px solid #f9bfb8;
+       border-bottom-right-radius: 30%;
+   }

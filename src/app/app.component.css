@@ -1,0 +1,628 @@
+   /* .bg-image {
+       height: 89vh;
+       width: 1428px;
+       width: 100%;
+       height: 735px;
+   } */
+
+   .mobiletexts {
+       display: none;
+   }
+
+   .nav-link {
+       color: #184799;
+       font-weight: 500;
+       font-size: large;
+   }
+
+   .nav-link:hover {
+       color: #fcb900;
+       font-weight: 700;
+       font-size: larger;
+   }
+
+   .navbar-nav {
+       padding-left: 20%;
+   }
+
+   .carousel-caption {
+       text-align: end;
+   }
+
+   .carousel-caption .btn {
+       background-color: #184799;
+       /* color: #fcb900; */
+       color: white;
+   }
+
+   .book:hover {
+       transform: scale(1.2);
+   }
+
+   .aboutheadline {
+       font-size: 2.5em;
+       font-weight: 800;
+       color: #184799;
+       text-align: center;
+   }
+
+   .aboutcard {
+       background-color: #f6cb58;
+       margin-top: 5rem;
+       border: 2px solid #f9bfb8;
+   }
+
+   .cardservice {
+       height: 85%;
+       box-shadow: #cb3230d7 0 1px 1px, #cb3030d7 0 4px 1px;
+       /* box-shadow: rgba(241, 128, 116, 255) 0px 1px 1px 0px, rgba(238, 56, 36, 0.32) 0px 2px 1px 0px; */
+   }
+
+   .cardservice:hover img {
+       transform: scale(1.2);
+   }
+
+   .cardservice:hover .cardservicetext {
+       opacity: 1;
+       transform: translateY(0px);
+       z-index: 1;
+   }
+
+   .cardservicetext {
+       position: absolute;
+       top: 0;
+       /* show on top */
+       left: 0;
+       height: 100%;
+       /* width: 100%; */
+       background: #184799;
+       color: white;
+       /* border: 2px solid #fcb900; */
+       font-size: 1em;
+       padding: 2%;
+       opacity: 0;
+       display: block;
+       text-align: center;
+       /* transform: translate(-80px, -100px); */
+       /* transform: translateX(-100%); */
+       /* hide above the card */
+       /* transition: opacity 0.3s ease, transform 0.3s ease; */
+   }
+
+   .service {
+       color: #184799;
+       font-size: 15px;
+       font-weight: bold;
+   }
+
+   .services {
+       font-size: 15px;
+       font-weight: bold;
+       color: #fcb900;
+       /* text-transform: uppercase; */
+   }
+
+   .headline {
+       color: #184799;
+       font-weight: bold;
+   }
+
+   .headlines {
+       color: #fcb900;
+       font-weight: bold;
+   }
+
+   #services {
+       background-color: #1847990b;
+       padding: 2%;
+   }
+
+   .testimonialstext {
+       background-color: #184799;
+       color: white;
+       margin-left: -4%;
+       margin-top: 4%;
+       margin-bottom: 6%;
+   }
+
+   .testimonialimage {
+       border-top-left-radius: 25%;
+       border: 5px solid #fcb900;
+   }
+
+   .imagetestimonialsilder {
+       width: 20%;
+   }
+
+   #Contact {
+       padding: 2%;
+   }
+
+   label {
+       font-weight: 600;
+       font-size: larger;
+   }
+
+   .divaddress {
+       background-color: #184799;
+       color: #fcb900;
+       font-size: 22px;
+       text-align: center;
+       font-weight: 600;
+       padding: 5px;
+       width: 40%;
+       border-radius: 25px;
+   }
+
+   .cardcontact {
+       background-image: url('/assets/testimonials.png');
+       background-color: #184799a2;
+       background-blend-mode: multiply;
+       background-repeat: no-repeat;
+       background-size: cover;
+       background-position: center;
+       color: white;
+       border: 2px solid #f9bfb8;
+       border-bottom-right-radius: 30%;
+   }
+
+   footer {
+       background-image: url('/assets/footer_bg.jpg');
+       background-size: cover;
+       /* background-color: rgba(243, 183,23, 0.5); */
+       background-color: rgba(24, 71, 153, 0.5);
+       /* Blue tint with 50% opacity */
+       background-blend-mode: screen;
+       color: white;
+       padding: 20px 0;
+       text-align: center;
+   }
+
+   footer li {
+       list-style: none;
+       color: white;
+       text-align: start;
+       font-size: 16px;
+   }
+
+   footer li:hover {
+       color: #fcb900;
+       font-size: large;
+       font-weight: 700;
+   }
+
+   i {
+       color: #fcb900;
+   }
+
+   .icons {
+       color: white;
+       margin: 0 10px;
+       transition: transform 0.3s ease;
+   }
+
+   .icons:hover {
+       transform: scale(1.2);
+       color: #fcb900;
+   }
+
+   .fa-whatsapp {
+       color: #21da46;
+       bottom: 10%;
+       position: fixed;
+       right: 0;
+       z-index: 2;
+       background-attachment: fixed;
+   }
+
+   .displaymobile {
+       display: none;
+   }
+
+   .displaylaptop {
+       display: block !important;
+   }
+
+   @media(min-width:439px) and (max-width: 767px) {
+
+       .displaymobile {
+           display: block !important;
+       }
+
+       .displaylaptop {
+           display: none !important;
+       }
+   }
+
+   .topBtn {
+       bottom: 3%;
+       position: fixed;
+       right: 0;
+       z-index: 2;
+   }
+
+   #Facilities {
+       background-color: #f5c133;
+       padding: 2%;
+   }
+
+   .container-diagnostics {
+       position: relative;
+       background: rgb(204, 204, 204);
+       height: 80%;
+       overflow: hidden;
+       border-radius: 10px;
+   }
+
+   .container-diagnostics:hover .container-diagnostics-title {
+       display: none;
+   }
+
+   .container-diagnostics-title {
+       position: absolute;
+       bottom: 0px;
+       left: 0px;
+       width: 100%;
+       color: rgb(255, 255, 255);
+       font-size: 17px;
+       font-weight: 500;
+       box-sizing: border-box;
+       padding: 10px 25px;
+       background: rgba(35, 73, 131, 0.5);
+   }
+
+   .container-diagnostics:hover .overlay {
+       opacity: 1;
+   }
+
+   .overlay {
+       position: absolute;
+       top: 0px;
+       left: 0px;
+       right: 0px;
+       bottom: 0px;
+       color: rgb(255, 255, 255);
+       align-items: center;
+       justify-content: center;
+       opacity: 0;
+       display: inline-grid;
+       font-size: 16px;
+       background: rgba(35, 73, 131, 0.7);
+       transition: opacity 0.3s;
+       padding: 30px;
+   }
+
+   .overlay .diagnostics-title {
+       font-size: 20px;
+       font-weight: 600;
+       margin-bottom: 10px;
+       color: #fcb900;
+   }
+
+   .cardvision {
+       background-color: #fcb900;
+       color: #184799;
+       border: none;
+       border-radius: 0%;
+   }
+
+   .card-header {
+       background-color: none;
+   }
+
+   .mission-image {
+       width: auto;
+       height: auto;
+       margin-top: -10%;
+   }
+
+   .vision-image {
+       width: auto;
+       height: auto;
+       margin-top: -10%;
+   }
+
+   .mission-image:hover {
+       transform: scale(1.2);
+       cursor: pointer;
+   }
+
+   .vision-image:hover {
+       transform: scale(1.2);
+       cursor: pointer;
+   }
+
+   .vision {
+       font-size: 1.5em;
+       font-weight: 700;
+       color: #184799;
+       text-align: center;
+   }
+
+   .abouttext {
+       font-size: 1.2em;
+       /* color: #184799; */
+       text-align: center;
+       margin-top: 20px;
+       margin-bottom: 20px;
+   }
+
+   .abouthead {
+       color: #184799;
+       font-weight: 700;
+       font-size: 1.5em;
+   }
+
+   #appoinment {
+       background: linear-gradient(to right, #fcb900, #184799);
+       color: white;
+       padding: 2%;
+   }
+
+   .btn-warning:hover {
+       transform: scale(1.1);
+       background-color: #fcb900 !important;
+       color: #184799 !important;
+       font-weight: 700;
+   }
+
+   #homeText {
+       /* margin-top: 17%; */
+       background-color: #184799ec;
+       font-size: 1.2em;
+       color: white;
+       text-align: center;
+       padding: 2%;
+
+   }
+
+   .homeimage {
+       width: 100%;
+       margin-top: -1%;
+   }
+
+   menu {
+       padding: 0%;
+   }
+
+   #MarathiServices {
+       background-color: #1847990b;
+       padding: 5%;
+   }
+
+   .headlinemarathi {
+       color: #184799;
+       font-weight: 800;
+       font-size: 2.5em;
+       text-align: center;
+       text-decoration: underline #fcb900;
+   }
+
+   .marathitext {
+       font-size: 18px;
+       margin-top: 20px;
+       margin-bottom: 20px;
+   }
+
+
+   .texts {
+       text-align: center;
+       font-size: 4em;
+       background-image: linear-gradient(to top, #184799, #fcb900);
+       /* Your desired gradient colors */
+       -webkit-background-clip: text;
+       background-clip: text;
+       color: transparent;
+       margin-top: -50%;
+       z-index: 1;
+       padding-left: 5%;
+
+       text-decoration: underline #ddb036;
+   }
+
+   .textss {
+       /* text-align: center; */
+       font-size: 4em;
+       background-image: linear-gradient(to top, #184799, #fcb900);
+       /* Your desired gradient colors */
+       -webkit-background-clip: text;
+       background-clip: text;
+       color: transparent;
+       margin-top: -50%;
+       z-index: 1;
+       margin-right: -10%;
+       text-decoration: underline #fcb900;
+   }
+
+   .emergencyservices {
+       text-align: center;
+       margin-left: 15%;
+   }
+
+   .emergencytext {
+       color: #fcb900;
+       font-size: x-large;
+       font-weight: 700;
+   }
+
+   /* .spanss {
+        color: #184799;
+        font-size: x-large;
+        background-color: #fcb900;
+        padding: 5%;
+        border-top: 25px solid transparent;
+        border-left: 50px solid #555;
+        border-bottom: 25px solid transparent;
+        z-index: 1;
+    } */
+
+   .spanss {
+       display: inline-block;
+       position: relative;
+       background: #fcb900;
+       /* yellow background */
+       color: #184799;
+       /* text color */
+       font-size: 1.2rem;
+       /* text size */
+       padding: 10px 20px;
+       /* padding for text */
+       font-weight: bold;
+   }
+
+   .spanss::after {
+       content: "";
+       position: absolute;
+       top: 50%;
+       left: 100%;
+       margin-top: -15px;
+       /* half of arrow height */
+       border-width: 15px;
+       border-style: solid;
+       border-color: transparent transparent transparent #fcb900;
+       /* arrow pointing right */
+   }
+
+   .modal-content {
+       background-color: #184799dc;
+       color: white;
+   }
+
+   .btnservi {
+       position: fixed;
+       z-index: 1;
+       top: 5;
+       bottom: 35%;
+   }
+
+   .supportservice {
+       font-size: 30px;
+       font-weight: 700;
+   }
+
+
+   .headlinedigno {
+       color: #184799;
+       font-size: 25px;
+       font-weight: bold;
+   }
+
+   .dse {
+       border-radius: 50%;
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+       transition: transform 0.3s, box-shadow 0.3s;
+       padding: 2%;
+       border: 1px solid #fcb900;
+       z-index: 2;
+       background-color: white;
+   }
+
+   .dsecard {
+       border: 2px solid #fcb900;
+       margin-top: -15%;
+       z-index: -1;
+   }
+
+   .cardfacilities {
+       height: 80px;
+       border: 1px solid white;
+   }
+
+   .card-body {
+       padding: 0.7rem;
+   }
+
+   .auxiliaryservice {
+       color: #184799;
+       font-weight: 700;
+       font-size: 1.2em;
+   }
+
+   .accordion-header {
+       background-color: #184799;
+       color: white;
+       font-size: larger;
+       font-weight: 750;
+   }
+
+   .accordion-body {
+       text-align: justify;
+       font-size: medium;
+   }
+
+   .fa-angles-right {
+       color: #fcb900;
+       margin-right: 10px;
+   }
+
+   .accordion-button {
+       font-size: medium;
+       font-weight: 500;
+   }
+
+   .testimonialname {
+       color: #184799;
+       font-size: 1.2em;
+       font-weight: 700;
+   }
+
+
+
+   .testimonialcard {
+       background-color: transparent;
+       border: none;
+   }
+
+   #Testimonials {
+       background-color: #1847990b;
+   }
+
+   /* #carouselExampleInterval {
+       height: 40vh;
+   } */
+
+   .cardreviews {
+       background-color: #184799d2;
+   }
+
+   .buttonprev-icon {
+       font-weight: 500;
+       background-color: #184799;
+       margin-top: 90% !important;
+
+       /* margin-left: 87% !important; */
+   }
+
+   .buttonicon {
+       font-weight: 500;
+       background-color: #184799;
+       margin-top: 90% !important;
+       /* margin-left: 87% !important; */
+   }
+
+   .testimonial-rating-box {
+       position: absolute;
+       background: #097788;
+       border: 6px solid #fff;
+       border-radius: 15px;
+       left: 50%;
+       right: 0;
+       /* bottom: -25px; */
+       padding: 15px;
+       max-width: 450px;
+   }
+
+   @media(max-width:439px) {
+       .mobiletexts {
+           display: block;
+       }
+
+       .laptoptext {
+           display: none;
+       }
+   }
+
+   .aboutimage {    
+        border-radius: 15%;
+        
+   }

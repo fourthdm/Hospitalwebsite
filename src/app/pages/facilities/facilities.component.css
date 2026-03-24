@@ -1,0 +1,96 @@
+.headline {
+    color: #184799;
+    font-weight: bold;
+}
+
+.containerf {
+    background-color: #f5c133d5;
+    padding: 2%;
+}
+
+.specialty-img {
+    width: 100%;
+    background-color: #838a9702;
+    /* opacity: 1; */
+    /* background-blend-mode: luminosity; */
+    mix-blend-mode: multiply;
+}
+
+.container-diagnostics {
+    position: relative;
+    background-color: #18479994;
+    /* background: rgb(204, 204, 204); */   
+    height: 80%;
+    overflow: hidden;
+    border-radius: 10px;
+}
+
+.col-md-8 {
+    background-color: #1847991c;
+}
+
+.bg--circle {
+    width: 50%;
+    border-radius: 50%;
+    /* background-color:  aliceblue; */
+    background-color: aliceblue;
+    padding: 2%;
+}
+
+.rewads {
+    background-color: aliceblue;
+    padding: 2%;
+    margin-top: -10%;
+    border-radius: 2.5%;
+}
+
+.diagnostics-title {
+    color: white;
+    /* background-color: #18479981; */
+    font-weight: bold;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* .container {
+  background-color: red;
+  padding: 15px;
+}
+
+.container img {
+  mix-blend-mode: darken;
+} */
+/* .container-diagnostics:hover .container-diagnostics-title {
+    display: none;
+} */
+
+/* .container-diagnostics-title {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    font-weight: 500;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    background: rgba(35, 73, 131, 0.233);
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+} */
+
+
+/* .container-diagnostics:hover .overlay {
+    opacity: 1;
+} */
+
+/* .card-body {
+    background-color: none;
+} */

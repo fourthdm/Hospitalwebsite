@@ -1,0 +1,40 @@
+.mobiletexts {
+    display: none;
+}
+
+.nav-link {
+    color: #184799;
+    font-weight: 500;
+    font-size: large;
+}
+
+.nav-link:hover {
+    color: #fcb900;
+    font-weight: 700;
+    font-size: larger;
+}
+
+.navbar-nav {
+    padding-left: 10%;
+}
+
+.logos {
+    width: 150px;
+}
+
+@media(max-width:439px) {
+    .logos {
+        width: 100px;
+    }
+}
+
+.whatsapp-icon {
+    padding-right: 20px;
+}
+
+.fa-whatsapp {
+    color: #21da46;
+    font-weight: 800;
+    z-index: 2;
+    background-attachment: fixed;
+}

@@ -1,0 +1,2455 @@
+<div class="bg-image">
+    <!-- <img src="/assets/consultant.png" class="img-fluid" alt="Sample" /> -->
+    <div class="mask">
+        <div class="speacilalistdoctor">
+            <p class="mb-0 drtext">
+                <b> SPECIALIST DOCTORS</b>
+            </p>
+        </div>
+    </div>
+</div>
+<div class="consultant">
+    <div class="container">
+        <br><br>
+        <div class="text-center">
+            <p class="headlines"> <b>Meet Our Expert Medical Team</b> </p>
+        </div>
+        <br>
+        <p class="details"> At Phoenix Hospital, our team of highly skilled and experienced doctors is dedicated to
+            providing exceptional
+            medical care. <br> Get to know our doctors and find the right
+            specialist for your healthcare needs.</p>
+
+        <div class="new">
+            <label for="">
+                <h5><b>Find a Doctor By Department</b></h5>
+            </label>
+            <input type="text" class="form-control mb-4" placeholder="Search doctor or department..."
+                (keyup)="searchDoctor($event)">
+            <div class="row department-section">
+
+                <div class="col-md-4 doctor-item">
+                    <div class="card " data-bs-toggle="modal" data-bs-target="#exampleModal"
+                        title="Click to know All Doctors Names of General Medicine Department">
+                        <div class="text-center">
+                            <img src="/assets/doctors/generalmedicine.png" alt="">
+                            <p class="heads"> <b>General Medicine Department</b> </p>
+                        </div>
+                    </div><br>
+                </div><br>
+
+                <div class="col-md-4 doctor-item">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#exampleModal2"
+                        title="Click to know All Doctors Names of Gynaecology Department">
+                        <div class="text-center">
+                            <img src="/assets/doctors/g.png" alt="">
+                            <p class="heads"> <b>Gynaecology Department</b> </p>
+                        </div>
+                        <!-- <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal2">
+                            <p class="heads"> <b>Gynaecology</b> </p>
+                        </button> -->
+                    </div><br>
+                </div><br>
+
+                <div class="col-md-4 doctor-item">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#exampleModal3"
+                        title="Click to know All Doctors Names of Paediatrics Department">
+                        <div class="text-center"> 
+                            <img src="/assets/doctors/Paediatrics.png" alt="">
+                            <p class="heads"> <b>Paediatrics Department</b> </p>
+                        </div>
+                        <!-- <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal3">
+                            <p class="heads"> <b>Paediatrics</b> </p>
+                        </button> -->
+                    </div><br>
+                </div><br>
+
+                <div class="col-md-4 doctor-item">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#exampleModal4"
+                        title="Click to know All Doctors Names of Orthopedics Department">
+                        <div class="text-center"> 
+                            <img src="/assets/doctors/orthopedics.png" alt="">
+                            <p class="heads"> <b>Orthopedics Department</b> </p>
+                        </div>
+                        <!-- <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal4">
+                            <p class="heads"> <b>Orthopedics</b> </p>
+                        </button> -->
+                    </div><br>
+                </div><br>
+
+                <div class="col-md-4 doctor-item">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#exampleModal5"
+                        title="Click to know All Doctors Names of Spine Surgeon Department">
+                        <div class="text-center"> 
+                            <img src="/assets/doctors/spinesurgeon.png" alt="">
+                            <p class="heads"> <b>Spine Surgeon Department</b> </p>
+                        </div>
+                        <!-- <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal5">
+                            <p class="heads"> <b>Spine Surgeon</b> </p>
+                        </button> -->
+                    </div><br>
+                </div><br>
+
+                <div class="col-md-4 doctor-item">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#exampleModal6"
+                        title="Click to know All Doctors Names of Plastic Surgeon Department">
+                        <div class="text-center"> 
+                            <img src="/assets/doctors/plasticsurgery.png" alt="">
+                            <p class="heads"> <b>Plastic Surgeon Department</b> </p>
+                        </div>
+                        <!-- <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal6">
+                            <p class="heads"> <b>Plastic Surgeon</b> </p>
+                        </button> -->
+                    </div><br>
+                </div><br>
+
+                <div class="col-md-4 doctor-item">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#exampleModal7"
+                        title="Click to know All Doctors Names of Medicine Oncology Department">
+                        <div class="text-center"> 
+                            <img src="/assets/doctors/medicineonclogy.jpg" alt="">
+                            <p class="heads"> <b>Medicine Oncology Department</b> </p>
+                        </div>
+                        <!-- <button type="button" class="btn" data-bs-toggle="modal" data-bs-target="#exampleModal7">
+                            <p class="heads"> <b>Medicine Oncology</b> </p>
+                        </button> -->
+                    </div><br>
+                </div><br>
+
+                <div class="col-md-4 doctor-item">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#exampleModalsurgical"
+                        title="Click to know All Doctors Names of Surgical Oncology Department">
+                        <div class="text-center"> 
+                            <img src="/assets/doctors/surgicaloncology.png" alt="">
+                            <p class="heads"> <b>Surgical Oncology Department</b> </p>
+                        </div>
+                        <!-- <button type="button" class="btn " data-bs-toggle="modal"
+                            data-bs-target="#exampleModalsurgical">
+                            <p class="heads"> <b>Surgical Oncology</b> </p>
+                        </button> -->
+                    </div><br>
+                </div><br>
+
+                <div class="col-md-4 doctor-item">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#exampleModal8"
+                        title="Click to know All Doctors Names of Anesthesiology Department">
+                        <div class="text-center"> 
+                            <img src="/assets/doctors/anesthesiology.png" alt="">
+                            <p class="heads"> <b>Anesthesiology Department</b> </p>
+                        </div>
+                        <!-- <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal8">
+                            <p class="heads"> <b>Anesthesiology </b> </p>
+                        </button> -->
+                    </div><br>
+                </div><br>
+
+                <div class="col-md-4 doctor-item">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#exampleModal9"
+                        title="Click to know All Doctors Names of Urology Department">
+                        <div class="text-center"> 
+                            <img src="/assets/doctors/urology.png" alt="">
+                            <p class="heads"> <b>Urology Department</b> </p>
+                        </div>
+                        <!-- <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal9">
+                            <p class="heads"> <b>Urology </b> </p>
+                        </button> -->
+                    </div><br>
+                </div><br>
+
+                <div class="col-md-4 doctor-item">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#exampleModal10"
+                        title="Click to know All Doctors Names of General & Bariatric Surgery Department">
+                        <div class="text-center"> 
+                            <img src="/assets/doctors/General & Bariatric Surgery.png" alt="">
+                            <p class="heads"> <b>General & Bariatric Surgery Department</b> </p>
+                        </div>
+                        <!-- <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal10">
+                            <p class="heads"> <b>General & Bariatric Surgery </b> </p>
+                        </button> -->
+                    </div><br>
+                </div><br>
+
+                <div class="col-md-4 doctor-item">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#exampleModal11"
+                        title="Click to know All Doctors Names of Dietician Department">
+                        <div class="text-center"> 
+                            <img src="/assets/doctors/Dietician.png" alt="">
+                            <p class="heads"> <b>Dietician Department</b> </p>
+                        </div>
+
+                        <!-- <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal11">
+                            <p class="heads"> <b>Dietician </b> </p>
+                        </button> -->
+                    </div><br>
+                </div><br>
+
+                <div class="col-md-4 doctor-item">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#exampleModal12"
+                        title="Click to know All Doctors Names of Physiotherapy Department">
+                        <div class="text-center"> 
+                            <img src="/assets/doctors/physiotheraphy.png" alt="">
+                            <p class="heads"> <b>Physiotherapy Department</b> </p>
+                        </div>
+
+                        <!-- <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal12">
+                            <p class="heads"> <b>Physiotherapy </b> </p>
+                        </button> -->
+                    </div><br>
+                </div><br>
+
+                <div class="col-md-4 doctor-item">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#exampleModal13"
+                        title="Click to know All Doctors Names of Chest Physician Department">
+                        <div class="text-center"> 
+                            <img src="/assets/doctors/Chestphysician.png" alt="">
+                            <p class="heads"> <b>Chest Physician Department</b> </p>
+                        </div>
+
+                        <!-- <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal13">
+                            <p class="heads"> <b>Chest Physician </b> </p>
+                        </button> -->
+                    </div><br>
+                </div><br>
+
+                <div class="col-md-4 doctor-item">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#exampleModal14"
+                        title="Click to know All Doctors Names of Nephrology Department">
+                        <div class="text-center">
+                            <img src="/assets/doctors/nephrology.png" alt="">
+                            <p class="heads"> <b>Nephrology Department</b> </p>
+                        </div>
+                        <!-- <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal14">
+                            <p class="heads"> <b>Nephrology </b> </p>
+                        </button> -->
+                    </div><br>
+                </div><br>
+
+                <div class="col-md-4 doctor-item">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#exampleModal15"
+                        title="Click to know All Doctors Names of Radiology Department">
+                        <div class="text-center">
+                            <img src="/assets/doctors/r.png" alt="">
+                            <p class="heads"> <b>Radiology Department</b> </p>
+                        </div>
+                        <!-- <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal15">
+                            <p class="heads"> <b>Radiology </b> </p>
+                        </button> -->
+                    </div><br>
+                </div><br>
+
+                <div class="col-md-4 doctor-item">
+                    <div class="card" data-bs-toggle="modal" data-bs-target="#exampleModal16"
+                        title="Click to know All Doctors Names of Neurology Department">
+                        <div class="text-center">
+                            <img src="/assets/doctors/neurology.png" alt="">
+                            <p class="heads "> <b>Neurology Department</b> </p>
+                        </div>
+
+                        <!-- <button type="button" class="btn " data-bs-toggle="modal" data-bs-target="#exampleModal16">
+                            <p class="heads"> <b>Neurology </b> </p>
+                        </button> -->
+                    </div><br>
+                </div><br>
+            </div>
+
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">General Medicine</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Baset Hakim</p>
+                                                        <p class="card-text">
+                                                            General Medicine
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Ranjeet Patil</p>
+                                                        <p class="card-text">
+                                                            General Medicine
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/femaledr.jpg" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Ipsita Malakar</p>
+                                                        <p class="card-text">
+                                                            General Medicine
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr.Gourish Karande</p>
+                                                        <p class="card-text">
+                                                            General Medicine
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Gynaecology</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row department-section">
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/femaledr.jpg" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Harsha Jadhav</p>
+                                                        <p class="card-text">
+                                                            Gynaecology
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Pankaj</p>
+                                                        <p class="card-text">
+                                                            Gynaecology
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/femaledr.jpg" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Ketki Raut</p>
+                                                        <p class="card-text">
+                                                            Gynaecology
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Paediatrics</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row department-section">
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Indrajeet Thorat</p>
+                                                        <p class="card-text">
+                                                            Paediatrics
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Sumit Nitnaware</p>
+                                                        <p class="card-text">
+                                                            Paediatrics
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/femaledr.jpg" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Kirti Shrotriya</p>
+                                                        <p class="card-text">
+                                                            Paediatrics
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Orthopedics</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+
+                                <div class="row department-section">
+
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr.Rohan Mhaske</p>
+                                                        <p class="card-text">
+                                                            Orthopedics
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Viren Patil</p>
+                                                        <p class="card-text">
+                                                            Orthopedics
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Aniruddha Deshpande</p>
+                                                        <p class="card-text">
+                                                            Orthopedics
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <br>
+
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card ">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Vishal Kadam</p>
+                                                        <p class="card-text">
+                                                            Orthopedics
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <br>
+
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. A K singh</p>
+                                                        <p class="card-text">
+                                                            Orthopedics
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Spine Surgeon</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row department-section">
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Shrinath</p>
+                                                        <p class="card-text">
+                                                            Spine Surgeon
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Nitish Agarwal</p>
+                                                        <p class="card-text">
+                                                            Spine Surgeon
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Plastic Surgeon</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row department-section">
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Manoj Pawar</p>
+                                                        <p class="card-text">
+                                                            Plastic Surgeon
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Pranav Thussey</p>
+                                                        <p class="card-text">
+                                                            Plastic Surgeon
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Medicine Oncology</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row department-section">
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Rahul Kulkarni</p>
+                                                        <p class="card-text">
+                                                            Medicine Oncology
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 doctor-item">
+
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/femaledr.jpg" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr.Reshma Puranik</p>
+                                                        <p class="card-text">
+                                                            Medicine Oncology
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+
+
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModalsurgical" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Surgical Oncology</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row department-section">
+                                    <div class="col-md-4 doctor-item">
+
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Rahul Pavshere</p>
+                                                        <p class="card-text">
+                                                            Surgical Oncology
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                        <br>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal8" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Anesthesiology</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row department-section">
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Sagar More</p>
+                                                        <p class="card-text">
+                                                            Anesthesiology
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Rana Singh Patil</p>
+                                                        <p class="card-text">
+                                                            Anesthesiology
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/femaledr.jpg" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Rashida Miyasaheb</p>
+                                                        <p class="card-text">
+                                                            Anesthesiology
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal9" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Urology</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row department-section">
+
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Parag Gulhane</p>
+                                                        <p class="card-text">
+                                                            Urology
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Kunal Pisre</p>
+                                                        <p class="card-text">
+                                                            Urology
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Sagar Bhalerao</p>
+                                                        <p class="card-text">
+                                                            Urology
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal10" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">General & Bariatric Surgery</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row department-section">
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Parmeshwar Bambrule</p>
+                                                        <p class="card-text">
+                                                            General & Bariatric surgery
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr.Satish Pattanshetty</p>
+                                                        <p class="card-text">
+                                                            General & Bariatric surgery
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Amol Muley</p>
+                                                        <p class="card-text">
+                                                            General & Bariatric surgery
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal11" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Dietician</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+
+                                <div class="row department-section">
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/femaledr.jpg" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Shital Bansal</p>
+                                                        <p class="card-text">
+                                                            Dietician
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/femaledr.jpg" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Sejal Lele Joshi</p>
+                                                        <p class="card-text">
+                                                            Dietician
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal12" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Physiotherapy</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+
+                                <div class="row department-section">
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/femaledr.jpg" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Archana Singh</p>
+                                                        <p class="card-text">
+                                                            Physiotherapy
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/femaledr.jpg" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Amruta Khilwani</p>
+                                                        <p class="card-text">
+                                                            Physiotherapy
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Shubham Khilwani</p>
+                                                        <p class="card-text">
+                                                            Physiotherapy
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/femaledr.jpg" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr.Devyani Gawande</p>
+                                                        <p class="card-text">
+                                                            Physiotherapy
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal13" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Chest Physician</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row department-section">
+
+                                    <div class="col-md-4  doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Rahul Kendre</p>
+                                                        <p class="card-text">
+                                                            Chest Physician
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4  doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Vishal More</p>
+                                                        <p class="card-text">
+                                                            Chest Physician
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal14" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Nephrology</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row department-section">
+                                    <div class="col-md-4  doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Ranjeet Dalvi</p>
+                                                        <p class="card-text">
+                                                            Nephrology
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Suhas Mondhe</p>
+                                                        <p class="card-text">
+                                                            Nephrology
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <br>
+                                    </div>
+                                    <br>
+
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal15" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl ">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Radiology</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row department-section">
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Rajat Agnihotri</p>
+                                                        <p class="card-text">
+                                                            Radiology
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="exampleModal16" tabindex="-1" aria-labelledby="exampleModalLabel"
+                aria-hidden="true">
+                <div class="modal-dialog modal-xl">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Neurology</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="container">
+                                <div class="row department-section">
+
+
+                                    <div class="col-md-4 doctor-item">
+                                        <div class="card mb-3">
+                                            <div class="row g-0 doctor-card">
+                                                <div class="col-md-4">
+                                                    <img src="/assets/dr.png" class="img-fluid rounded-start"
+                                                        height="100" alt="...">
+                                                </div>
+                                                <div class="col-md-8">
+                                                    <div class="card-body">
+                                                        <p class="card-title">Dr. Ajit Thombre</p>
+                                                        <p class="card-text">
+                                                            Neurology
+                                                        </p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <br><br>
+
+        <!-- <div class="newdesign">
+
+  <div class="row">
+                <div class="text-start">
+                    <div class="col-md-4">
+                        <label for="searchterm">
+                            <h5><b>Search Doctor Name</b></h5>
+                        </label> <br>
+                        <div class="input-group mb-3">
+                           
+                            <input type="text" class="form-control" placeholder="Search doctor or department..."
+                                aria-label="Search" aria-describedby="button-addon2" [(ngModel)]="searchTerm">
+                            <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i
+                                    class="fa-solid fa-magnifying-glass"></i></button>
+                        </div>
+
+                    </div>
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4"></div>
+                </div>
+                <br><br><br><br>
+                <div class="row" *ngIf="doctors.length == 0">
+                    <h3>No Data Found.</h3>
+                </div>
+
+                <div class="col-md-4" *ngFor="let doc of doctors | filtersearch:searchTerm">
+                    <p *ngIf="doc.Depart == doc.department">{{doc.Depart}}</p>
+                    <div class="div" *ngIf="doctors.length > 0">
+                        <div class="card mb-3">
+
+                            <div class="row g-0 doctor-card">
+                                <div class="col-md-4">
+                                    <img [src]="doc.image" class="img-fluid rounded-start" alt="Doctor">
+                                </div>
+                                <div class="col-md-8">
+                                    <div class="card-body">
+                                        <p class="card-title">{{ doc.name}}</p>
+                                        <p class="card-text">{{ doc.department }}</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <input type="text" class="form-control" placeholder="Search..." [(ngModel)]="searchTerm">
+            <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-magnifying-glass"></i></span>
+
+            <input type="text" class="form-control" (input)="searchDoctor($event)" placeholder="Search...">
+
+            <label for="">
+                <h5><b>Find a Doctor By Name and Department</b></h5>
+            </label>
+            <input type="text" class="form-control mb-4" placeholder="Search doctor or department..."
+                (keyup)="searchDoctor($event)">
+
+
+            <div class="row department-section">
+                <p class="headline" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                    title="Know to All Doctors Names"> <b>General Medicine</b> </p>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Baset Hakim</p>
+                                    <p class="card-text">
+                                        General Medicine
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Ranjeet Patil</p>
+                                    <p class="card-text">
+                                        General Medicine
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/femaledr.jpg" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Ipsita Malakar</p>
+                                    <p class="card-text">
+                                        General Medicine
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr.Gourish Karande</p>
+                                    <p class="card-text">
+                                        General Medicine
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+            </div>
+
+            <div class="row department-section">
+                <p class="headline"> <b>Gynaecology</b> </p>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/femaledr.jpg" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Harsha Jadhav</p>
+                                    <p class="card-text">
+                                        Gynaecology
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Pankaj</p>
+                                    <p class="card-text">
+                                        Gynaecology
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/femaledr.jpg" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Ketki Raut</p>
+                                    <p class="card-text">
+                                        Gynaecology
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+            </div>
+
+            <div class="row department-section">
+                <p class="headline"> <b>Paediatrics</b> </p>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Indrajeet Thorat</p>
+                                    <p class="card-text">
+                                        Paediatrics
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Sumit Nitnaware</p>
+                                    <p class="card-text">
+                                        Paediatrics
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/femaledr.jpg" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Kirti Shrotriya</p>
+                                    <p class="card-text">
+                                        Paediatrics
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+            </div>
+
+            <div class="row department-section">
+                <p class="headline"> <b>Orthopedics</b> </p>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr.Rohan Mhaske</p>
+                                    <p class="card-text">
+                                        Orthopedics
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Viren Patil</p>
+                                    <p class="card-text">
+                                        Orthopedics
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Aniruddha Deshpande</p>
+                                    <p class="card-text">
+                                        Orthopedics
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <br>
+
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card ">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Vishal Kadam</p>
+                                    <p class="card-text">
+                                        Orthopedics
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <br>
+
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. A K singh</p>
+                                    <p class="card-text">
+                                        Orthopedics
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <br>
+            </div>
+
+            <div class="row department-section">
+                <p class="headline"> <b>Spine Surgeon</b> </p>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Shrinath</p>
+                                    <p class="card-text">
+                                        Spine Surgeon
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Nitish Agarwal</p>
+                                    <p class="card-text">
+                                        Spine Surgeon
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+            </div>
+
+            <div class="row department-section">
+                <p class="headline"> <b>Plastic Surgeon </b> </p>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Manoj Pawar</p>
+                                    <p class="card-text">
+                                        Plastic Surgeon
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Pranav Thussey</p>
+                                    <p class="card-text">
+                                        Plastic Surgeon
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+            </div>
+
+            <div class="row department-section">
+                <div class="col-md-4 doctor-item">
+                    <p class="headline"> <b>Medicine Oncology </b> </p>
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Rahul Kulkarni</p>
+                                    <p class="card-text">
+                                        Medicine Oncology
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4 doctor-item">
+                    <br> <br>
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/femaledr.jpg" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr.Reshma Puranik</p>
+                                    <p class="card-text">
+                                        Medicine Oncology
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+
+                <div class="col-md-4 doctor-item">
+
+                    <p class="headline"> <b>Surgical Oncology </b> </p>
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Rahul Pavshere</p>
+                                    <p class="card-text">
+                                        Surgical Oncology
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <br>
+                </div>
+
+            </div>
+
+            <div class="row department-section">
+                <p class="headline"> <b>Anesthesiology</b> </p>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Sagar More</p>
+                                    <p class="card-text">
+                                        Anesthesiology
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Rana Singh Patil</p>
+                                    <p class="card-text">
+                                        Anesthesiology
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/femaledr.jpg" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Rashida Miyasaheb</p>
+                                    <p class="card-text">
+                                        Anesthesiology
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+            </div>
+
+            <div class="row department-section">
+                <p class="headline"> <b>Urology</b> </p>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Parag Gulhane</p>
+                                    <p class="card-text">
+                                        Urology
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Kunal Pisre</p>
+                                    <p class="card-text">
+                                        Urology
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Sagar Bhalerao</p>
+                                    <p class="card-text">
+                                        Urology
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+            </div>
+
+            <div class="row department-section">
+                <p class="headline"> <b>General & Bariatric Surgery</b> </p>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Parmeshwar Bambrule</p>
+                                    <p class="card-text">
+                                        General & Bariatric surgery
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr.Satish Pattanshetty</p>
+                                    <p class="card-text">
+                                        General & Bariatric surgery
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Amol Muley</p>
+                                    <p class="card-text">
+                                        General & Bariatric surgery
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+            </div>
+
+            <div class="row department-section">
+                <p class="headline"> <b>Dietician</b> </p>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/femaledr.jpg" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Shital Bansal</p>
+                                    <p class="card-text">
+                                        Dietician
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/femaledr.jpg" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Sejal Lele Joshi</p>
+                                    <p class="card-text">
+                                        Dietician
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+            </div>
+
+            <div class="row department-section">
+                <p class="headline"> <b>Physiotherapy</b> </p>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/femaledr.jpg" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Archana Singh</p>
+                                    <p class="card-text">
+                                        Physiotherapy
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/femaledr.jpg" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Amruta Khilwani</p>
+                                    <p class="card-text">
+                                        Physiotherapy
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Shubham Khilwani</p>
+                                    <p class="card-text">
+                                        Physiotherapy
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/femaledr.jpg" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr.Devyani Gawande</p>
+                                    <p class="card-text">
+                                        Physiotherapy
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+            </div>
+
+            <div class="row department-section">
+                <p class="headline"> <b>Chest Physician</b> </p>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Archana Singh</p>
+                                    <p class="card-text">
+                                        Chest Physician
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4  doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Amruta Khilwani</p>
+                                    <p class="card-text">
+                                        Chest Physician
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4  doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Shubham Khilwani</p>
+                                    <p class="card-text">
+                                        Chest Physician
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr.Devyani Gawande</p>
+                                    <p class="card-text">
+                                        Chest Physician
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+            </div>
+
+            <div class="row department-section">
+                <p class="headline"> <b>Nephrology</b> </p>
+                <div class="col-md-4  doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Ranjeet Dalvi</p>
+                                    <p class="card-text">
+                                        Nephrology
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+                <div class="col-md-4 doctor-item">
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Suhas Mondhe</p>
+                                    <p class="card-text">
+                                        Nephrology
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                </div>
+                <br>
+
+            </div>
+
+            <div class="row department-section">
+                <div class="col-md-4 doctor-item">
+                    <p class="headline"> <b>Radiology</b> </p>
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Rajat Agnihotri</p>
+                                    <p class="card-text">
+                                        Radiology
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 doctor-item">
+                    <p class="headline"> <b>Neurology</b> </p>
+                    <div class="card mb-3">
+                        <div class="row g-0 doctor-card">
+                            <div class="col-md-4">
+                                <img src="/assets/dr.png" class="img-fluid rounded-start" height="100" alt="...">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-title">Dr. Ajit Thombre</p>
+                                    <p class="card-text">
+                                        Neurology
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+    </div>
+</div>

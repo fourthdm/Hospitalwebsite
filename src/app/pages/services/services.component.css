@@ -1,0 +1,220 @@
+.cardservice {
+    height: 85%;
+    box-shadow: #cb3230d7 0 1px 1px, #cb3030d7 0 4px 1px;
+    /* box-shadow: rgba(241, 128, 116, 255) 0px 1px 1px 0px, rgba(238, 56, 36, 0.32) 0px 2px 1px 0px; */
+}
+
+.cardservice:hover img {
+    transform: scale(1.2);
+}
+
+.cardservice:hover .cardservicetext {
+    opacity: 1;
+    transform: translateY(0px);
+    z-index: 1;
+}
+
+.cardservicetext {
+    position: absolute;
+    top: 0;
+    /* show on top */
+    left: 0;
+    height: 100%;
+    /* width: 100%; */
+    background: #184799;
+    color: white;
+    /* border: 2px solid #fcb900; */
+    font-size: 1em;
+    padding: 2%;
+    opacity: 0;
+    display: block;
+    text-align: center;
+    /* transform: translate(-80px, -100px); */
+    /* transform: translateX(-100%); */
+    /* hide above the card */
+    /* transition: opacity 0.3s ease, transform 0.3s ease; */
+}
+
+.service {
+    color: #184799;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.services {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fcb900;
+    /* text-transform: uppercase; */
+}
+
+.headline {
+    color: #184799;
+    font-weight: bold;
+}
+
+.headlines {
+    color: #fcb900;
+    font-weight: bold;
+}
+
+.service {
+    color: #184799;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.services {
+    font-size: 15px;
+    font-weight: bold;
+    color: #fcb900;
+    /* text-transform: uppercase; */
+}
+
+.headline {
+    color: #184799;
+    font-weight: bold;
+}
+
+.headlines {
+    color: #fcb900;
+    font-weight: bold;
+}
+
+.mainservices {
+    background-color: #1847990b;
+    padding: 2%;
+}
+
+
+#MarathiServices {
+    background-color: #1847990b;
+    padding: 5%;
+}
+
+.headlinemarathi {
+    color: #184799;
+    font-weight: 800;
+    font-size: 2.5em;
+    text-align: center;
+    text-decoration: underline #fcb900;
+}
+
+.marathitext {
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.spanss {
+    display: inline-block;
+    position: relative;
+    background: #fcb900;
+    /* yellow background */
+    color: #184799;
+    /* text color */
+    font-size: 1.2rem;
+    /* text size */
+    padding: 10px 20px;
+    /* padding for text */
+    font-weight: bold;
+}
+
+.spanss::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    margin-top: -15px;
+    /* half of arrow height */
+    border-width: 15px;
+    border-style: solid;
+    border-color: transparent transparent transparent #fcb900;
+    /* arrow pointing right */
+}
+
+i {
+    color: #fcb900;
+}
+
+   @media(min-width:439px) and (max-width: 767px) {
+
+       .displaymobile {
+           display: block !important;
+       }
+
+       .displaylaptop {
+           display: none !important;
+       }
+   }
+
+
+   
+   @media(max-width:439px) {
+       .mobiletexts {
+           display: block;
+       }
+
+       .laptoptext {
+           display: none;
+       }
+
+   }
+
+   @media only screen and (min-width: 390px) and (orientation: landscape) {
+       .spanss {
+           display: inline-block;
+           position: relative;
+           background: #fcb900;
+           color: #184799;
+           font-size: 15px;
+           padding: 0px 0px;
+           font-weight: bold;
+           margin-left: -25%;
+       }
+
+       .spanss::after {
+           content: "";
+           position: absolute;
+           top: 50%;
+           left: 100%;
+           margin-top: -15px;
+           /* half of arrow height */
+           border-width: 15px;
+           border-style: solid;
+           border-color: transparent transparent transparent #fcb900;
+           /* arrow pointing right */
+       }
+
+   }
+
+   @media only screen and (min-width: 1440px) and (orientation: landscape) {
+       .spanss {
+           display: inline-block;
+           position: relative;
+           background: #fcb900;
+           /* yellow background */
+           color: #184799;
+           /* text color */
+           font-size: 1.2rem;
+           /* text size */
+           padding: 7px 10px;
+           /* padding for text */
+           font-weight: bold;
+           margin-left: 55%;
+       }
+
+       .spanss::after {
+           content: "";
+           position: absolute;
+           top: 50%;
+           left: 100%;
+           margin-top: -15px;
+           /* half of arrow height */
+           border-width: 15px;
+           border-style: solid;
+           border-color: transparent transparent transparent #fcb900;
+           /* arrow pointing right */
+       }
+
+   }

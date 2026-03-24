@@ -1,0 +1,43 @@
+
+.scrolling-container {
+    overflow: hidden;
+    height: 600px;
+    /* Adjust the height as needed */
+    position: relative;
+}
+
+.scrolling-content {
+    display: flex;
+    flex-direction: column;
+    animation: scrollLoop 95s linear infinite;
+}
+
+.scrolling-contentp {
+    display: flex;
+    flex-direction: column;
+    animation: scrollLoopup 95s linear infinite;
+}
+
+@keyframes scrollLoop {
+    0% {
+        transform: translateY(0);
+    }
+
+    100% {
+        transform: translateY(-50%);
+    }
+
+    /* Adjust to half the content height */
+}
+
+@keyframes scrollLoopup {
+    0% {
+        transform: translateY(-50%);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+
+    /* Adjust to half the content height */
+}
