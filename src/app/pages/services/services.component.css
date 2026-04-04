@@ -137,84 +137,112 @@ i {
     color: #fcb900;
 }
 
-   @media(min-width:439px) and (max-width: 767px) {
+@media(min-width:439px) and (max-width: 767px) {
 
-       .displaymobile {
-           display: block !important;
-       }
+    .displaymobile {
+        display: block !important;
+    }
 
-       .displaylaptop {
-           display: none !important;
-       }
-   }
+    .displaylaptop {
+        display: none !important;
+    }
+
+}
 
 
+
+@media(max-width:439px) {
+    .mobiletexts {
+        display: block;
+    }
+
+    .laptoptext {
+        display: none;
+    }
+     .spanss {
+        display: inline-block;
    
-   @media(max-width:439px) {
-       .mobiletexts {
-           display: block;
-       }
+        position: relative;
+        background: #fcb900;
+        color: #184799;
 
-       .laptoptext {
-           display: none;
-       }
+        font-size: larger;
+        padding: 1px 2px;
+        /* font-size: 5px;
+        padding: 0px 0px; */
+        font-weight: bold;
+        margin-left: -55%;
+    }
 
-   }
+    .spanss::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        margin-top: -15px;
+        /* half of arrow height */
+        border-width: 15px;
+        border-style: solid;
+        border-color: transparent transparent transparent #fcb900;
+        /* arrow pointing right */
+    }
 
-   @media only screen and (min-width: 390px) and (orientation: landscape) {
-       .spanss {
-           display: inline-block;
-           position: relative;
-           background: #fcb900;
-           color: #184799;
-           font-size: 15px;
-           padding: 0px 0px;
-           font-weight: bold;
-           margin-left: -25%;
-       }
+}
 
-       .spanss::after {
-           content: "";
-           position: absolute;
-           top: 50%;
-           left: 100%;
-           margin-top: -15px;
-           /* half of arrow height */
-           border-width: 15px;
-           border-style: solid;
-           border-color: transparent transparent transparent #fcb900;
-           /* arrow pointing right */
-       }
+@media only screen and (min-width: 390px) and (orientation: landscape) {
+    .spanss {
+        display: inline-block;
+        position: relative;
+        background: #fcb900;
+        color: #184799;
+        font-size: 5px;
+        padding: 0px 0px;
+        font-weight: bold;
+        margin-left: -55%;
+    }
 
-   }
+    .spanss::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        margin-top: -15px;
+        /* half of arrow height */
+        border-width: 15px;
+        border-style: solid;
+        border-color: transparent transparent transparent #fcb900;
+        /* arrow pointing right */
+    }
 
-   @media only screen and (min-width: 1440px) and (orientation: landscape) {
-       .spanss {
-           display: inline-block;
-           position: relative;
-           background: #fcb900;
-           /* yellow background */
-           color: #184799;
-           /* text color */
-           font-size: 1.2rem;
-           /* text size */
-           padding: 7px 10px;
-           /* padding for text */
-           font-weight: bold;
-           margin-left: 55%;
-       }
+}
 
-       .spanss::after {
-           content: "";
-           position: absolute;
-           top: 50%;
-           left: 100%;
-           margin-top: -15px;
-           /* half of arrow height */
-           border-width: 15px;
-           border-style: solid;
-           border-color: transparent transparent transparent #fcb900;
-           /* arrow pointing right */
-       }
+@media only screen and (min-width: 1440px) and (orientation: landscape) {
+    .spanss {
+        display: inline-block;
+        position: relative;
+        background: #fcb900;
+        /* yellow background */
+        color: #184799;
+        /* text color */
+        font-size: 1.2rem;
+        /* text size */
+        padding: 7px 10px;
+        /* padding for text */
+        font-weight: bold;
+        margin-left: 55%;
+    }
 
-   }
+    .spanss::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        margin-top: -15px;
+        /* half of arrow height */
+        border-width: 15px;
+        border-style: solid;
+        border-color: transparent transparent transparent #fcb900;
+        /* arrow pointing right */
+    }
+
+}

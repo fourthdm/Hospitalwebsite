@@ -329,7 +329,7 @@
        margin-bottom: 10px;
        color: #fcb900;
    } */
-
+/* 
    .cardvision {
        background-color: #fcb900;
        color: #184799;
@@ -368,8 +368,47 @@
        font-weight: 700;
        color: #184799;
        text-align: center;
-   }
+   } */
+.cardvision {
+    background-color: #fcb900;
+    color: #184799;
+    border: none;
+    border-radius: 0%;
+    height: 100%;
+}
 
+.card-header {
+    background-color: none;
+}
+
+.mission-image {
+    width: auto;
+    height: auto;
+    margin-top: -10%;
+}
+
+.vision-image {
+    width: auto;
+    height: auto;
+    margin-top: -10%;
+}
+
+.mission-image:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.vision-image:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+
+.vision {
+    font-size: 1.5em;
+    font-weight: 700;
+    color: #184799;
+    text-align: center;
+}
    .abouttext {
        font-size: 1.2em;
        /* color: #184799; */
@@ -619,6 +658,33 @@
            display: none;
        }
 
+     .spanss {
+        display: inline-block;
+   
+        position: relative;
+        background: #fcb900;
+        color: #184799;
+
+        font-size: larger;
+        padding: 1px 2px;
+        /* font-size: 5px;
+        padding: 0px 0px; */
+        font-weight: bold;
+        margin-left: -55%;
+    }
+
+    .spanss::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 100%;
+        margin-top: -15px;
+        /* half of arrow height */
+        border-width: 15px;
+        border-style: solid;
+        border-color: transparent transparent transparent #fcb900;
+        /* arrow pointing right */
+    }
    }
 
    @media only screen and (min-width: 390px) and (orientation: landscape) {

@@ -3,6 +3,7 @@
     color: #184799;
     border: none;
     border-radius: 0%;
+    height: 100%;
 }
 
 .card-header {
@@ -68,9 +69,23 @@
     padding: 25% 5% 15% 18%;
 }
 
-.texts {
+.textsdesktop {
     padding-left: 55%;
     margin-top: -20%;
+}
+
+.textsmobile {
+    padding-left: 55%;
+    margin-top: -20%;
+    display: none;
+
+    .textslider {
+        font-size: small;
+    }
+
+    .headlines {
+        font-size: medium;
+    }
 }
 
 .headlines {
@@ -83,4 +98,27 @@
 
 .aboutimage {
     border-radius: 5%;
+}
+
+@media (max-width:439px) {
+    .headlines {
+        font-size: 15px;
+    }
+
+    .textslidermobile {
+        font-size: small;
+    }
+
+    .textsmobile {
+        display: block;
+    }
+
+    .textsdesktop {
+        display: none;
+    }
+
+    .mask {
+        padding: 25% 1% 1% 1%;
+    }
+
 }
