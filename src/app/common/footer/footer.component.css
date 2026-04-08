@@ -65,7 +65,6 @@ i {
         display: none !important;
     }
 
-
     .whatsapp-icon {
         display: none;
     }
@@ -81,4 +80,8 @@ i {
 
 menu {
     padding: 0%;
+}
+
+.footerdata{
+    padding: 0% 5% ;
 }

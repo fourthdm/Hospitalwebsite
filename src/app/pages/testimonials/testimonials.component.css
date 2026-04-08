@@ -48,6 +48,8 @@
 .headline {
     color: #184799;
     font-weight: bold;
+    text-decoration: underline #fcb900;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .testimonialcard {

@@ -15,6 +15,11 @@ import { AboutComponent } from './pages/about/about.component';
 import { ConsultantpanelComponent } from './pages/consultantpanel/consultantpanel.component';
 import { FiltersearchPipe } from './filtersearch.pipe';
 import { SlidersComponent } from './pages/sliders/sliders.component';
+import { MedicineComponent } from './specilityservice/medicine/medicine.component';
+import { GeneralSurgeryComponent } from './specilityservice/general-surgery/general-surgery.component';
+import { OrthopaedicsComponent } from './specilityservice/orthopaedics/orthopaedics.component';
+import { UrologyComponent } from './specilityservice/urology/urology.component';
+import { ICUComponent } from './specilityservice/icu/icu.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +34,12 @@ import { SlidersComponent } from './pages/sliders/sliders.component';
     AboutComponent,
     ConsultantpanelComponent,
     FiltersearchPipe,
-    SlidersComponent
+    SlidersComponent,
+    MedicineComponent,
+    GeneralSurgeryComponent,
+    OrthopaedicsComponent,
+    UrologyComponent,
+    ICUComponent
   ],
   imports: [
     BrowserModule,
