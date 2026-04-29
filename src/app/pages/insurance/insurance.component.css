@@ -1,0 +1,39 @@
+.bg-image {
+    background-image: url('/assets/testimonials.png');
+    background-size: cover;
+}
+
+.speacilalistdoctor {
+    text-align: start;
+    padding: 10% 10% 5% 10%;
+    color: #184795;
+}
+
+.drtext {
+    font-size: 3em;
+}
+
+.consultant {
+    background-color: #18479915;
+}
+
+.insurancetext{
+    font-size: 2em;
+    color: #184795;
+    font-weight: 500;
+}
+
+.insurancepara{
+    font-size: large;
+    color: black;
+    font-weight: 450;
+}
+
+img{
+    width: 100%;
+}
+
+.partners{
+    color: #184795;
+    font-size: larger;
+}

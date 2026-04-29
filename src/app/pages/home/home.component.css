@@ -780,9 +780,24 @@
    }
 
    .newtexts {
-    padding: 4%;
+       padding: 4%;
    }
 
-   .bi-circle-square{
-    padding-right: 10px;
+   .bi-circle-square {
+       padding-right: 10px;
+   }
+
+   .insurancepara {
+       font-size: 21px;
+       font-weight: 450;
+   }
+
+   .partners {
+       color: #184795;
+       font-size: larger;
+       font-weight: 500;
+   }
+
+   .insuranceimage {
+    width: 100%;
    }

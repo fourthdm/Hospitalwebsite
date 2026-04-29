@@ -20,6 +20,7 @@ import { GeneralSurgeryComponent } from './specilityservice/general-surgery/gene
 import { OrthopaedicsComponent } from './specilityservice/orthopaedics/orthopaedics.component';
 import { UrologyComponent } from './specilityservice/urology/urology.component';
 import { ICUComponent } from './specilityservice/icu/icu.component';
+import { InsuranceComponent } from './pages/insurance/insurance.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +40,8 @@ import { ICUComponent } from './specilityservice/icu/icu.component';
     GeneralSurgeryComponent,
     OrthopaedicsComponent,
     UrologyComponent,
-    ICUComponent
+    ICUComponent,
+    InsuranceComponent
   ],
   imports: [
     BrowserModule,

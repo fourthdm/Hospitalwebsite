@@ -8,6 +8,7 @@ import { TestimonialsComponent } from './pages/testimonials/testimonials.compone
 import { ContactComponent } from './pages/contact/contact.component';
 import { ConsultantpanelComponent } from './pages/consultantpanel/consultantpanel.component';
 import { SlidersComponent } from './pages/sliders/sliders.component';
+import { InsuranceComponent } from './pages/insurance/insurance.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'Testimonial', component: TestimonialsComponent, title: 'Patient Reviews Phoenix Hospital Lohegaon | Hospital Testimonials', data: { description: 'Read patient testimonials and experiences at Phoenix Hospital Lohegaon one of the trusted hospitals in Pune providing compassionate healthcare.' } },
   { path: 'Contactus', component: ContactComponent, title: 'Contact Phoenix Hospital Lohegaon | Hospital on Porwal Road Pune', data: { description: 'Contact Phoenix Hospital located at Skyways Zudio Building Porwal Road Lohegaon Pune for emergency services consultations and appointments.' } },
   { path: 'DoctorPanel', component: ConsultantpanelComponent, title: 'Expert Doctors in Lohegaon Pune | Phoenix Hospital Specialists', data: { description: 'Meet experienced doctors and medical specialists at Phoenix Hospital Lohegaon providing advanced surgical care emergency treatment and consultations.' } },
+  { path: 'Insurance',component:InsuranceComponent },
   { path: '**', redirectTo: '' }
 ];
 
