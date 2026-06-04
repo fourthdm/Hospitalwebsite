@@ -1,3 +1,18 @@
+.bg-image {
+    background-image: url('/assets/consultant.png');
+    background-size: cover;
+}
+
+.speacilalistdoctor {
+    text-align: start;
+    padding: 10% 10% 5% 10%;
+    color: #184795;
+    font-size: 40px;
+    line-height: 50px;
+    max-width: 800px;
+}
+
+
 .testimonial-rating-box {
     position: absolute;
     background: #184799f6;

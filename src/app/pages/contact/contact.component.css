@@ -1,60 +1,73 @@
+.bg-image {
+    background-image: url('/assets/consultant.png');
+    background-size: cover;
+}
 
-   .accordion-header {
-       background-color: #184799;
-       color: white;
-       font-size: larger;
-       font-weight: 750;
-   }
+.speacilalistdoctor {
+    text-align: start;
+    padding: 10% 10% 5% 10%;
+    color: #184795;
+    font-size: 40px;
+    line-height: 50px;
+    max-width: 800px;
+}
 
-   .accordion-body {
-       text-align: justify;
-       font-size: medium;
-   }
+.accordion-header {
+    background-color: #184799;
+    color: white;
+    font-size: larger;
+    font-weight: 750;
+}
 
-   .fa-angles-right {
-       color: #fcb900;
-       margin-right: 10px;
-   }
+.accordion-body {
+    text-align: justify;
+    font-size: medium;
+}
 
-   .accordion-button {
-       font-size: medium;
-       font-weight: 500;
-   }
+.fa-angles-right {
+    color: #fcb900;
+    margin-right: 10px;
+}
 
-   .testimonialname {
-       color: #184799;
-       font-size: 1.2em;
-       font-weight: 700;
-   }
+.accordion-button {
+    font-size: medium;
+    font-weight: 500;
+}
 
-   .testimonialcard {
-       background-color: transparent;
-       border: none;
-   }
+.testimonialname {
+    color: #184799;
+    font-size: 1.2em;
+    font-weight: 700;
+}
 
-   #Testimonials {
-       background-color: #1847990b;
-   }
+.testimonialcard {
+    background-color: transparent;
+    border: none;
+}
 
-   
-   .headline {
-       color: #184799;
-       font-weight: bold;
-   }
+#Testimonials {
+    background-color: #1847990b;
+}
 
-   .headlines {
-       color: #fcb900;
-       font-weight: bold;
-   }
-   
-   .cardcontact {
-       background-image: url('/assets/testimonials.png');
-       background-color: #184799a2;
-       background-blend-mode: multiply;
-       background-repeat: no-repeat;
-       background-size: cover;
-       background-position: center;
-       color: white;
-       border: 2px solid #f9bfb8;
-       border-bottom-right-radius: 30%;
-   }
+
+.headline {
+    color: #184799;
+    font-weight: bold;
+}
+
+.headlines {
+    color: #fcb900;
+    font-weight: bold;
+}
+
+.cardcontact {
+    background-image: url('/assets/testimonials.png');
+    background-color: #184799a2;
+    background-blend-mode: multiply;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border: 2px solid #f9bfb8;
+    border-bottom-right-radius: 30%;
+}

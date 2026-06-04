@@ -134,7 +134,7 @@
 
    .testimonialimage {
        border-top-left-radius: 25%;
-       border: 5px solid #fcb900;
+       /* border: 5px solid #fcb900; */
    }
 
    .imagetestimonialsilder {
@@ -479,6 +479,89 @@
        margin-bottom: 20px;
    }
 
+   .maintexts {
+       font-size: 84px;
+       line-height: 80px;
+       -webkit-background-clip: text;
+       background-clip: text;
+       color: transparent;
+       margin-top: -7em;
+       z-index: 1;
+       padding-left: 15%;
+       color: #fcb900;
+       max-width: 400px;
+   }
+
+   .textslider {
+       text-align: start;
+       font-size: 64px;
+       font-weight: 500;
+       line-height: 72px;
+       -webkit-background-clip: text;
+       background-clip: text;
+       color: transparent;
+       margin-top: -1px;
+       z-index: 1;
+       padding-left: 15%;
+       color: #FFFFFF;
+       max-width: 400px;
+   }
+
+   .lohegaontext {
+       font-size: 45px;
+       font-weight: 600;
+       line-height: 70px;
+       -webkit-background-clip: text;
+       background-clip: text;
+       color: transparent;
+       z-index: 1;
+       padding-left: 0.1%;
+       color: #ffffff;
+       max-width: 500px;
+   }
+
+   .mobilemaintexts {
+       display: none;
+       font-size: 18px;
+       line-height: 28px;
+       -webkit-background-clip: text;
+       background-clip: text;
+       color: transparent;
+       margin-top: -10em;
+       z-index: 1;
+       padding-left: 15%;
+       color: #fcb900;
+       max-width: 300px;
+   }
+
+   .mobiletextslider {
+       display: none;
+       text-align: start;
+       font-size: 16px;
+       font-weight: 500;
+       line-height: 22px;
+       -webkit-background-clip: text;
+       background-clip: text;
+       color: transparent;
+       margin-top: -1px;
+       z-index: 1;
+       padding-left: 5%;
+       color: #FFFFFF;
+       max-width: 300px;
+   }
+
+   .mobilelohegaontext {
+       display: none;
+       font-size: 14px;
+       line-height: 22px;
+       -webkit-background-clip: text;
+       background-clip: text;
+       color: transparent;
+       z-index: 1;
+       padding-left: 0.1%;
+       color: #ffffff;
+       max-width: 500px;
+   }
 
    .texts {
        text-align: center;
@@ -655,6 +738,41 @@
    } */
 
    @media(max-width:439px) {
+       .laptopview {
+        display: none;
+    }
+
+    .Mobileview {
+        display: block;
+    }
+
+    .testimonialfeedback {
+        text-align: justify;
+    } 
+    .maintexts {
+           display: none;
+       }
+
+       .textslider {
+           display: none;
+       }
+
+       .lohegaontext {
+           display: none;
+       }
+
+       .mobilemaintexts {
+           display: block;
+       }
+
+       .mobilelohegaontext {
+           display: block;
+       }
+
+       .mobiletextslider {
+           display: block;
+       }
+
        .mobiletexts {
            display: block;
        }
@@ -690,9 +808,68 @@
            border-color: transparent transparent transparent #fcb900;
            /* arrow pointing right */
        }
+
+       .mission-image {
+           width: auto;
+           height: auto;
+           margin-top: -20%;
+       }
+
+       .vision-image {
+           width: auto;
+           height: auto;
+           margin-top: -20%;
+       }
+
+       .servicetexts {
+           display: none;
+       }
+
    }
 
    @media only screen and (min-width: 390px) and (orientation: landscape) {
+       .maintexts {
+           font-size: 21px;
+           line-height: 28px;
+           -webkit-background-clip: text;
+           background-clip: text;
+           color: transparent;
+           margin-top: -1em;
+           z-index: 1;
+           padding-left: 15%;
+           color: #fcb900;
+           max-width: 400px;
+       }
+
+       .lohegaontext {
+           text-align: start;
+           font-size: 18px;
+           font-weight: 600;
+           line-height: 22px;
+           -webkit-background-clip: text;
+           background-clip: text;
+           color: transparent;
+           z-index: 1;
+           padding-left: 0.1%;
+           color: #ffffff;
+           max-width: 500px;
+       }
+
+       .textslider {
+           text-align: start;
+           font-size: 14px;
+           font-weight: 500;
+           line-height: 22px;
+           -webkit-background-clip: text;
+           background-clip: text;
+           color: transparent;
+           margin-top: -1px;
+           z-index: 1;
+           padding-left: 15%;
+           color: #FFFFFF;
+           max-width: 400px;
+       }
+
        .spanss {
            display: inline-block;
            position: relative;
@@ -720,6 +897,69 @@
    }
 
    @media only screen and (min-width: 1440px) and (orientation: landscape) {
+    
+        .laptopview {
+        display: block;
+    }
+
+    .Mobileview {
+        display: none;
+    }
+    .testimonial-rating-box {
+           position: absolute;
+           background: #184799f6;
+           border: 6px solid #fff;
+           border-radius: 15px;
+           left: 16.5%;
+           /* right: 0; */
+           margin-top: -8%;
+           padding: 15px;
+           width: 250px;
+       }
+
+       .maintexts {
+           font-size: 84px;
+           line-height: 80px;
+           -webkit-background-clip: text;
+           background-clip: text;
+           color: transparent;
+           margin-top: -7em;
+           z-index: 1;
+           padding-left: 15%;
+           color: #fcb900;
+           max-width: 400px;
+       }
+
+       .textslider {
+           text-align: start;
+           font-size: 64px;
+           font-weight: 500;
+           line-height: 72px;
+           -webkit-background-clip: text;
+           background-clip: text;
+           color: transparent;
+           margin-top: -1px;
+           z-index: 1;
+           padding-left: 15%;
+           color: #FFFFFF;
+           max-width: 400px;
+       }
+
+       .lohegaontext {
+
+           font-size: 45px;
+           font-weight: 600;
+           line-height: 70px;
+           -webkit-background-clip: text;
+           background-clip: text;
+           color: transparent;
+           z-index: 1;
+           padding-left: 0.1%;
+           color: #ffffff;
+           max-width: 500px;
+       }
+
+
        .spanss {
            display: inline-block;
            position: relative;
@@ -799,5 +1039,160 @@
    }
 
    .insuranceimage {
-    width: 100%;
+       width: 100%;
+   }
+
+   @media only screen and (min-width: 1024px) and (max-width: 1430px) and (orientation: landscape) {
+       .maintexts {
+           font-size: 74px;
+           line-height: 80px;
+           -webkit-background-clip: text;
+           background-clip: text;
+           color: transparent;
+           margin-top: -7.2em;
+           z-index: 1;
+           padding-left: 15%;
+           color: #fcb900;
+           max-width: 400px;
+       }
+
+       .lohegaontext {
+           text-align: start;
+           font-size: 40px;
+           font-weight: 600;
+           line-height: 48px;
+           -webkit-background-clip: text;
+           background-clip: text;
+           color: transparent;
+           z-index: 1;
+           padding-left: 0.1%;
+           color: #ffffff;
+           max-width: 500px;
+       }
+
+       .textslider {
+           text-align: start;
+           font-size: 44px;
+           font-weight: 500;
+           line-height: 48px;
+           -webkit-background-clip: text;
+           background-clip: text;
+           color: transparent;
+           margin-top: -1px;
+           z-index: 1;
+           padding-left: 15%;
+           color: #FFFFFF;
+           max-width: 400px;
+       }
+
+       .testimonial-rating-box {
+           position: absolute;
+           background: #184799f6;
+           border: 6px solid #fff;
+           border-radius: 15px;
+           left: 85%;
+           margin-left: -2% !important;
+           /* right: 0; */
+           margin-top: -5%;
+           padding: 15px;
+           width: 250px;
+       }
+
+       .buttonprev-icon {
+           font-weight: 500;
+           background-color: #184799;
+           /* margin-top: 220% !important; */
+           transform: translate(850%, 381%);
+       }
+
+       .buttonicon {
+           font-weight: 500;
+           background-color: #184799;
+           transform: translate(-700%, 381%);
+           /* margin-top: 90% !important; */
+           /* margin-left: -250% !important; */
+       }
+   }
+
+
+   .testimonial-rating-box {
+       position: absolute;
+       background: #184799f6;
+       border: 6px solid #fff;
+       border-radius: 15px;
+       left: 25%;
+       /* right: 0; */
+       margin-top: -5%;
+       padding: 15px;
+       width: 250px;
+   }
+
+   .testimonialname {
+       color: #184799;
+       font-size: 1.5em;
+       font-weight: 700;
+   }
+
+   .starts {
+       margin-left: 25% !important;
+   }
+
+   .testimonialstext {
+       background-color: #184799;
+       color: white;
+       margin-left: -4%;
+       margin-top: 4%;
+       margin-bottom: 6%;
+   }
+
+   .testimonialimage {
+       border-top-left-radius: 25%;
+       /* border: 5px solid #fcb900; */
+   }
+
+   .testimonialimage {
+       border-radius: 4%;
+   }
+
+   /* .testimonialfeedback {
+    text-align: center;
+} */
+
+   .lefts {
+       margin-top: -13% !important;
+   }
+
+   .headline {
+       color: #184799;
+       font-weight: bold;
+       text-decoration: underline #fcb900;
+       font-family: Georgia, 'Times New Roman', Times, serif;
+   }
+
+   .testimonialcard {
+       background-color: transparent;
+       border: none;
+   }
+
+   #Testimonials {
+       background-color: #1847990b;
+   }
+
+   .cardreviews {
+       background-color: #184799d2;
+   }
+
+   .buttonprev-icon {
+       font-weight: 500;
+       background-color: #184799;
+       /* margin-top: 220% !important; */
+       transform: translate(800%, 381%);
+   }
+
+   .buttonicon {
+       font-weight: 500;
+       background-color: #184799;
+       transform: translate(-1000%, 381%);
+       /* margin-top: 90% !important; */
+       /* margin-left: -250% !important; */
    }

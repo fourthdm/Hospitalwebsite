@@ -7,6 +7,9 @@
     text-align: start;
     padding: 10% 10% 5% 10%;
     color: #184795;
+    font-size: 40px;
+    line-height: 50px;
+    max-width: 800px;
 }
 
 .drtext {
@@ -58,14 +61,14 @@
     font-size: larger;
 }
 
-.modal-header{
+.modal-header {
     text-align: center;
 }
 
-img{
+img {
     width: 100%;
 }
 
-.card{
+.card {
     cursor: pointer;
 }
